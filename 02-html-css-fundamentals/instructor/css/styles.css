@@ -8,18 +8,73 @@
 /* BASIC SELECTORS */
 
 /* Tag selectors */
-
+h1 {
+  color: tomato;
+}
 
 /* Class selectors */
+.poop {
+  color: brown;
+}
+
+.hero {
+  color: lightseagreen;
+  color: blue;
+}
 
 
 /* ID selectors */
+#hero-unit {
+  border: 5px dotted yellow;
 
+  border-width: 5px;
+  border-style: dotted;
+  border-color: yellow;
+}
 
 
 /* ADVANCED SELECTORS */
 
 /* Combining selectors */
+#hero-unit.special {
+  border: 10px dashed purple;
+}
 
+#hero-unit.special.super {
+  border: 3px solid black;
+  padding: 20px;
+}
+
+section h1 {
+  color: orange;
+}
+
+section > h1 {
+  color: green;
+}
+
+section > .betty {
+  background-color: darkgoldenrod;
+}
 
 /* Pseudo-selectors */
+blockquote:hover {
+  font-size: 30px;
+}
+
+.cool-button:hover {
+
+}
+
+#field-text:focus {
+  background-color: tomato;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  font-weight: bold;
+  color: red;
+}
