@@ -6,7 +6,9 @@
 */
 
 /* BASIC SELECTORS */
-
+.hero {
+  color: blue
+}
 /* Tag selectors */
 
 
@@ -15,7 +17,9 @@
 
 /* ID selectors */
 
-
+#field-text {
+  color: blueviolet
+}
 
 /* ADVANCED SELECTORS */
 
